@@ -1,4 +1,5 @@
-#Twitter Sentiment App 
+# Twitter Sentiment App 
+
 This app uses [Vue.JS] as UI and [Node.js] as backend. Using [Vuetify] for Material Design and Components. Deployment of both UI and Backend is done though [Serverless].
 
 
