@@ -5,8 +5,8 @@ This app uses [Vue.JS] as UI and [Node.js] as backend. Using [Vuetify] for Mater
 
 Deploy it to s3 here is the link: https://d25oqgd3mej04c.cloudfront.net/
 
-###Architecture Diagram
-![Arch Diagram](https://raw.githubusercontent.com/krisunni/twitter-sentiment/master/Arch.PNG)
+### Architecture Diagram
+![Arch Diagram](https://user-images.githubusercontent.com/1234685/63179863-11651d00-c01b-11e9-9057-71a4a29e41e5.PNG)
 
 
 [Vue.JS]:https://vuejs.org/
