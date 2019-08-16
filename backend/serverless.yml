@@ -5,16 +5,17 @@ org: krisunni
 plugins:
   - serverless-finch
   - serverless-single-page-app-plugin
+  - serverless-dotenv-plugin
 
 
 provider:
   name: aws
   runtime: nodejs10.x
   environment:
-    CONSUMER_KEY:
-    CONSUMER_SECRET:
-    ACCESS_TOKEN:
-    ACCESS_TOKEN_SECRET:
+    CONSUMER_KEY:  ${env:CONSUMER_KEY}
+    CONSUMER_SECRET: ${env:CONSUMER_SECRET}
+    ACCESS_TOKEN: ${env:ACCESS_TOKEN}
+    ACCESS_TOKEN_SECRET: ${env:ACCESS_TOKEN_SECRET}
 
 functions:
   twitter:
@@ -107,7 +108,7 @@ resources:
           #   Prefix: myprefix
 
   ## In order to print out the hosted domain via `serverless info` we need to define the DomainName output for CloudFormation
-    Outputs:
-      WebAppCloudFrontDistributionOutput:
-        Value:
-          'Fn::GetAtt': [ WebAppCloudFrontDistribution, DomainName ]
+  Outputs:
+    WebAppCloudFrontDistributionOutput:
+      Value:
+        'Fn::GetAtt': [ WebAppCloudFrontDistribution, DomainName ]

@@ -16,10 +16,11 @@
     "sentiment": "^5.0.1",
     "serverless-finch": "^2.4.2",
     "serverless-http": "^2.0.2",
-    "serverless-single-page-app-plugin": "^1.0.2",
     "twit": "^2.2.11"
   },
   "devDependencies": {
-    "serverless-offline": "^5.10.1"
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.10.1",
+    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin"
   }
 }

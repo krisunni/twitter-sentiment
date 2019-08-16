@@ -94,3 +94,4 @@ typings/
 
 *.iml
 backend/client/
+backend/app
