@@ -27,7 +27,7 @@ functions:
 custom:
   client:
     bucketName: twitter-plot-frontend
-  s3Bucket: kuportfolio
+  s3Bucket: kuportfolio-prod
 resources:
   Resources:
     ## Specifying the S3 Bucket

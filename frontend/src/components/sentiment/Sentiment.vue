@@ -119,7 +119,7 @@
             }
         },
         watch: {
-            'screen_name': function(val, oldVal){
+            'screen_name': function(val){
                 if (val < 50) {
                     this.message= 'Value Didnt Change';
                 }else{
@@ -139,7 +139,6 @@
             },
 
         },
-        watch: {},
         created() {
             getTweets.call(this);
         }
