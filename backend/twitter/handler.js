@@ -15,9 +15,15 @@ const client = new Twitter({
     access_token: process.env.ACCESS_TOKEN,
     access_token_secret: process.env.ACCESS_TOKEN_SECRET
 });
+// Linkedin Oath Creds
+const linkedinClientID = process.env.LINKEDIN_CLIENTID;
+const linkedinClientSecret = process.env.LINKEDIN_CLIENTID;
 
 let tweetsMap = new Map();
 let requestPath;
+let authorizationToken;
+let authorizationTokenTimeStamp;
+let authorizationExpiryTime = process.env.LINKEDIN_AUTHORIZATION_EXPIRY_TIME;
 
 app.get('/api/tweets/:screen_name', (req, res) => {
     requestPath = `statuses/user_timeline.json?screen_name=${req.params.screen_name}&count=200`;

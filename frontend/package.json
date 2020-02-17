@@ -10,11 +10,13 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "@mdi/font": "^3.9.97",
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.3",
     "core-js": "^2.6.5",
+    "devicon": "^2.2.0",
+    "devicons": "^1.8.0",
     "roboto-fontface": "*",
     "vue": "^2.6.10",
-    "vue-chartjs": "^3.4.2",
+    "vue-chartjs": "^3.5.0",
     "vuetify": "^2.0.7"
   },
   "devDependencies": {

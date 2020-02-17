@@ -1,0 +1,166 @@
+{
+  "title": "My portfolio",
+  "name": "Kris",
+  "surname": "Unnikannan",
+  "address": "Toronto · ON · Canada",
+  "email": "contactme@krisunni.com",
+  "aboutMe": "Senior Engineer and Solution Architect with proven ability to build complex software systems and deliver successful projects, consistently meeting critical requirements. 8 years of Consulting and IT experience using diverse frameworks to deliver robust user friendly applications. Passionate about researching and implementing new technologies within the organization to help achieve faster response to market and best practices.",
+  "experience": [
+    {
+      "position": "Senior Solutions Architect",
+      "company": "Intersect (Corelogic), Toronto, ON, Canada",
+      "description": "Work with clients and internal teams to drive business development and support engineering delivery. Lead design the scoping of technical solutions from client requirements. Work closely with\nclients to conduct any technical discovery, architecture design, and API exploration needed to ensure\nproject success. Technical client-facing team member, presenting solutions and articulate rationales and assumptions. Work closely with several cross-functional teams in product and business\ndevelopment to arrive at optimal solutions and help deliver great products.",
+      "startDate": "September 2019",
+      "endDate": "Present"
+    },
+    {
+      "position": "Solution Architect",
+      "company": "Information Asset, NJ, USA",
+      "description": "Consulting and training Clients around their Data Governance and Data Privacy. Leverage various tools to integrate existing Metadata/Data to Data Governance Tools like Collibra, Alation, Immuta, etc. Migrating manual and semi automated workflows into fully automated, audit ready process.",
+      "startDate": "August 2018",
+      "endDate": "October 2019",
+      "projects": [
+        {
+          "id": "mep",
+          "name": "MetaData Exchange Platform (MEP)",
+          "startDate": "August 2018",
+          "endDate": "Present",
+          "description": "Designed and implemented user friendly end to end application with the following features.",
+          "keyTasks": [
+            "Configuration Manager for new integrations.",
+            "Canonical Data Model to ingest metadata from new sources, using Kafka to publish and subscribe.",
+            "Kafka subscriber to insert metadata to Collibra.",
+            "Spotfire Connector to publish metadata to Kafka.",
+            "Kafka subscriber  to insert metadata to Collibra.",
+            "Create Docker configuration and Docker-Compose to deploy MEP.",
+            "CI/CD Jenkins pipeline to Development and Production server deploy Merge Request."
+          ]
+        },
+        {
+          "id": "fidelity1",
+          "name": "Fidelity - Compliance and Technology Group, Boston, MA, USA",
+          "startDate": "January 2019",
+          "endDate": "June 2019",
+          "description": "Designed and implemented user friendly end to end application with the following features.",
+          "keyTasks": [
+            "Guided Technical team with Data Governance set up and management.",
+            "Designed and Delivered Informatica Enterprise Data Catalog and Informatica Analyst to Collibra integration.",
+            "Delivered Technical and Process solutions along with training to client team."
+          ]
+        },
+        {
+          "id": "fidelity2",
+          "name": "Fidelity - Financial Institution Gro, Providence, RI, USA",
+          "startDate": "January 2019",
+          "endDate": "June 2019",
+          "description": "GDPR & Inventory, Contractual Governance",
+          "keyTasks": [
+            "Designed and implemented custom workflows to automate existing manual/semi automated Data extraction and process.",
+            "Access Request (used to acquire access to data, grant access to data, etc.)",
+            "Designed and implemented Issue Resolution Workflow to solve Data governance tickets and escalate to Service now for other domains.",
+            "Designed and implemented MetaCenter Metadata integration using Mulesoft.",
+            "Designed and implemented bidirectional integration with ServiceNow and Collibra"
+          ]
+        },
+        {
+          "id": "schoolsFirst",
+          "name": "SchoolsFirst Federal Credit Union Santa Ana, CA, U.S.A",
+          "startDate": "January 2019",
+          "endDate": "March 2019",
+          "description": "Designed and Developed integration from Dundas BI Server to Alation. Leveraging Neo4j to show lineage from Dundas BI"
+        },
+        {
+          "id": "pfizer",
+          "name": "Pfizer, New York City, NY , U.S.A",
+          "startDate": "January 2019",
+          "endDate": "March 2019",
+          "description": "Designed and Developed Integration connector to take Dashboard previews and Metadata from TIBCO Spotfire to Alation. Worked with Pfizer and Alation Engineering teams to gather requirements and develop production ready solution. Worked with business stakeholders to install the connector in production environment and success of the platform."
+        },
+        {
+          "id": "bose",
+          "name": "Bose Corporation, Framingham, MA, USA",
+          "startDate": "March 2019",
+          "endDate": "March 2019",
+          "description": "Design and delivered AWS S3 to Collibra Data Governance Center integration",
+          "keyTasks": [
+            "Design and delivered AWS S3 to Collibra Data Governance Center integration",
+            "Create and delivered Collibra Cookbook relating to custom integrations.",
+            "Create and delivered Operations Runbook for integrations.",
+            "Create AWS IAM role for AWS Lambda to access S3 bucket",
+            "Create AWS Lambda function",
+            "Subscribe AWS Lambda function to AWS S3 buckets",
+            "Map S3 file metadata and sample data into Collibra",
+            "Profile Data in S3 using Amazon Athena and import it to Collibra",
+            "Train and Support Bose technical team during production develop deployment and go live to production."
+          ]
+        },
+        {
+          "id": "axa",
+          "name": "AXA XL Insurance, New York, USA",
+          "startDate": "November 2018",
+          "endDate": "January 2019",
+          "description": "Designed and Developed bidirectional integration solution to synchronize Business Terms from Collibra Data Governance Center (DGC) to Informatica Enterprise Data Catalog (EDC) and Data Catalog Metadata from EDC back to Collibra. Created Lineage information and links to EDC in DGC."
+        }
+      ]
+    },
+    {
+      "position": "Technical Lead for Customer Onboarding",
+      "company": "Asurion, LLC, Nashville, TN, U.S.A",
+      "description": "SolutoConnect (SoCo) is a server-less CMS web-application that Technicians (users) use to manage customer information from top major cellphone carriers all over the world. Work directly with users to engineer solutions that lower Call Resolution Time (CRT). Optimize the user's’ views with Customer data and create a simple interaction to decrease CRT by working in a Kanban model. The team works on a short development to deployment model with multiple releases in a week. Working with a startup level environment to deliver an enterprise quality product.",
+      "startDate": "October 2016",
+      "endDate": "August 2018"
+    },
+    {
+      "position": "Software Engineer",
+      "company": "UBS AG, Nashville, TN, U.S.A",
+      "description": "Worked directly with Business and Information Technology (IT) partners to define and gather business requirements, delivered financial services software projects using iterative development practices, specifically agile scrum. Mentored team members to learn new technologies like Node.js and AngularJS and entry-level developers to learn and use Java Best practices as per Oracle Certified Associate. Served as an integral part of the IT Modernization Initiative team at UBS.",
+      "startDate": "June 2015",
+      "endDate": "October 2016",
+      "projects": [
+        {
+          "id": "nwm",
+          "name": "Net New Money",
+          "keyTasks": [
+            "Converted a COBAL application that calculates the Net assets at UBS Bank for daily reporting and down steam systems.",
+            "Used Java 8 Lambdas and steam API to streamline processing of large files.",
+            "Developed, tested and deployed Java to run on IBM Mainframe with a given MIPS threshold."
+          ]
+        },
+        {
+          "id": "partnershipPortal",
+          "name": "Partnership Portal",
+          "keyTasks": [
+            "Designed and implemented External Facing Single Page Web Application Web Application. Lead the front end development role for UBS’s Content Management Portal for Partners and Vendors.",
+            "Integrated with Spring Boot ensured data contracts where sufficient with backend.",
+            "Developed using AngularJS, Bootstrap, Less to create mobile responsive web pages."
+          ]
+        },
+        {
+          "id": "zeus",
+          "name": "Zeus Credit Risk Integration and Calculator",
+          "description": "Developed data-loaders to Credit Risk calculators and integrate with Java calculators and Data aggregators."
+        },
+        {
+          "id": "ccar",
+          "name": "ETL for Comprehensive Capital Analysis and Review (CCAR)",
+          "description": "Project descriptionDeveloped ETL process for CCAR processing using in house Java based ETL. Worked with Data Scientist to ensure data is properly formatted."
+        }
+      ]
+    },
+    {
+      "position": "Intermediate Software Developer",
+      "company": "Fruit of the Loom, Inc., Bowling Green, KY, U.S.A",
+      "startDate": "October 2012",
+      "endDate": "June 2015",
+      "description": "Developed and maintained integration solutions for the middleware team at world headquarters. Implemented best practices and standard operating procedures for Oracle SOA Suite. Implementing integration solutions for Oracle Enterprise Resource Planning (ERP) of the Vanity Fair division. Strengthened and designed reusable interfaces for using pub-sub architecture using IBM MQ and Oracle SOA Suite inbuilt JMS. Worked with the EBS Performance Enhancement Team towards optimizing DB usage via AWR reports and PL/SQL profilers."
+    },
+    {
+      "position": "Software Developer",
+      "company": "Department of Engineering, WKU, Bowling Green, KY, U.S.A",
+      "startDate": "May 2011",
+      "endDate": "August 2012",
+      "description": "Developed a bi-directional front-end application to operate the Disposable Remotely Operated Submarine (DROS). Developed software for microcontroller in a submarine to drive and capture camera and navigation. Managed the Prius Project. Designed a standalone battery monitoring system on National Instruments CompactRIO to capture and save battery information."
+    }
+  ]
+}
+
