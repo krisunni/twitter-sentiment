@@ -1,0 +1,46 @@
+
+> twitter-sentiment@0.1.0 build /home/pi/portfolio/twitter-sentiment/frontend
+> vue-cli-service build "NODE_OPTIONS=--max_old_space_size=300"
+
+
+> twitter-sentiment@0.1.0 build /home/pi/portfolio/twitter-sentiment/frontend
+> vue-cli-service build "NODE_OPTIONS=--max_old_space_size=300"
+
+
+-  Building for production...
+
+-  Building for production...
+ ERROR  Failed to compile with 1 errors2:56:34 PM
+
+ error  
+
+Entry module not found: Error: Can't resolve '/home/pi/portfolio/twitter-sentiment/frontend/NODE_OPTIONS=--max_old_space_size=300' in '/home/pi/portfolio/twitter-sentiment/frontend'
+
+ ERROR  Build failed with errors.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! twitter-sentiment@0.1.0 build: `vue-cli-service build "NODE_OPTIONS=--max_old_space_size=300"`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the twitter-sentiment@0.1.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/pi/.npm/_logs/2020-02-18T19_56_34_735Z-debug.log
+ ERROR  Failed to compile with 1 errors2:56:37 PM
+
+ error  
+
+Entry module not found: Error: Can't resolve '/home/pi/portfolio/twitter-sentiment/frontend/NODE_OPTIONS=--max_old_space_size=300' in '/home/pi/portfolio/twitter-sentiment/frontend'
+
+ ERROR  Build failed with errors.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! twitter-sentiment@0.1.0 build: `vue-cli-service build "NODE_OPTIONS=--max_old_space_size=300"`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the twitter-sentiment@0.1.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/pi/.npm/_logs/2020-02-18T19_56_37_360Z-debug.log
