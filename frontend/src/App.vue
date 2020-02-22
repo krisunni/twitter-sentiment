@@ -45,13 +45,11 @@
 
 <script>
     import Sentiment from "./components/sentiment/Sentiment";
-    import House from "./components/house/House";
     import Home from "./components/home/Home";
 
     export default {
         components: {
             Sentiment,
-            House,
             Home
         },
         props: {
